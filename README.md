@@ -10,13 +10,13 @@ VHDL code for converting standard I2S data (64fs) to the offset-binary data (sim
 - it has low load on the CPLD and it takes up little memory
 - only 3 signal wires (I2S) are needed for input (DATA, BCK, LRCK).
 - output is true offset-binary specified for TDA1541A in the simultaneous mode: 
- --  CL  (outCL)  - stopped DAC clock
- --  DL  (outDL)  - Left DAC data (inversed MSB)
- --  DLi (outDLi) - Left DAC data inverted (inversed MSB)
- --  LL  (outLL)  - Latch for left channels (latched together)
- --  DR  (outDR)  - Right DAC data (inversed MSB)
- --  DRi (outDRi) - Right DAC data inverted (inversed MSB)
- --  LR  (outLR)  - Latch for right channels (latched together)
+--  CL  (outCL)  - stopped DAC clock
+--  DL  (outDL)  - Left DAC data (inversed MSB)
+--  DLi (outDLi) - Left DAC data inverted (inversed MSB)
+--  LL  (outLL)  - Latch for left channels (latched together)
+--  DR  (outDR)  - Right DAC data (inversed MSB)
+--  DRi (outDRi) - Right DAC data inverted (inversed MSB)
+--  LR  (outLR)  - Latch for right channels (latched together)
 - it flawlessly works with the cheap CPLD EPM240T100C5 from aliexpress and can be easily configured for others
 - my VHDL code is open and free for all
 
