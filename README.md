@@ -20,8 +20,8 @@ VHDL code for converting standard I2S data (64fs) to the offset-binary data (sim
 - it flawlessly works with the cheap CPLD EPM240T100C5 from aliexpress and can be easily configured for others
 - my VHDL code is open and free for all
 
-Tutorial how to programm CPLD: 
+Tutorial how to programm CPLD: https://electrodac.blogspot.com/p/i2s-to-tda1541a-balanced-converter.html
 
-Quartus project file: 
+Quartus project file: https://drive.google.com/file/d/1HbCrIXkTgO9RH4hVWMeN_8kdebNSMpK4/view?usp=sharing
 
 If you like my work and find it helpful, you can donate coffee for me :D Donate Coffee for miro1360: https://www.buymeacoffee.com/miro1360coffee Thank you :)
